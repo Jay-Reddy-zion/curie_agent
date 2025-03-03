@@ -26,7 +26,7 @@ from pytesseract import image_to_string
 
 from azuretables import Entity, TableManager
 from models import chunks, FileList, AISearchRequest, FeedbackRequest, ChunkResponse, DeleteFileRequest, MemoryQueryResult, MemoryRecordMetadata, Message, SearchRequest, SearchResponse, VectorQuery
-from settings import get_settings
+from curie_agent.backend.settings import get_settings
 from template import generate_template
 
 
